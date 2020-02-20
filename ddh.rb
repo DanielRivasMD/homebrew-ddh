@@ -7,8 +7,5 @@ class Ddh < Formula
 
   def install
     bin.install "ddh"
-
-    bash_completion.install "complete/todor.bash-completion"
-    zsh_completion.install "complete/_todor"
   end
 end
