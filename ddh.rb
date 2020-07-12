@@ -1,9 +1,10 @@
 class Ddh < Formula
-  desc ""
-  homepage ""
-  url "https://github.com/DanielRivasMD/ddh/files/4039270/ddh.tar.gz"
-  version "0.10.7"
-  sha256 "7d97e603168c6cec45938b9b72733709290de735e44c58bbaf57f9e7f6f6c6d8"
+  desc "A fast duplicate file finder"
+  version '0.11.0'
+  homepage "https://github.com/DanielRivasMD/ddh"
+
+  url "https://github.com/DanielRivasMD/ddh/releases/latest/download/ddh.tar.gz"
+  sha256 "4b25da7ff7ba5201088d39286e878953ec6f41cf59b8ce0d160bcc2e2a572361"
 
   def install
     bin.install "ddh"
